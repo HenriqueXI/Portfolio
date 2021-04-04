@@ -1,0 +1,27 @@
+/*Variaveis de cores*/
+
+$color-white: #FFFFFF;
+$color-green:#5CAC5F;
+$color-marrom: #A4A4A4;
+$color-black: #000000;
+//variaveis de media Quaries
+$medias-mobile-s: 320px;
+$medias-mobile-m: 375px;
+$medias-mobile-l: 450px;
+$medias-tablet: 778px;
+$desktop: 1024px;
+//mix de fontes
+@mixin font-title {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700;
+}
+
+@mixin font-subtitle {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 500;
+}
+
+@mixin font-paragraf {
+    font-family: 'Ruda', sans-serif;
+    font-weight: 400;
+}
